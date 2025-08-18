@@ -1,0 +1,13 @@
+body { background-color: black; margin: 0; padding: 0; color: #F7F7F7; font-family: Verdana; }
+
+.menuButton { padding-top:80px; padding-left: 30px; font-size: 3em; }
+.menuButton:hover { text-decoration: underline;}
+
+.newsCard { width: 25%;  margin:auto; background-color: #ABA592; padding:20px; }
+
+@media (max-width: 400px) {
+
+    .newsCard { width: 1000px; }
+
+}
+
