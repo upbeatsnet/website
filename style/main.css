@@ -7,7 +7,8 @@ a:hover {text-decoration: underline;}
 .menuButton:hover { text-decoration: underline;}
 
 .newsCard { width: 500px;  margin:auto; background-color: #878784; padding:20px; font-size: 2em; min-height:900px; }
-.artistCard { display:flex; flex-wrap: wrap;  gap: 30px; border: solid 1px silver; margin: 20px; margin:10px; margin-bottom: 30px; }
+
+.artistCard { display:flex; flex-wrap: wrap;  gap: 30px; border-bottom: solid 1px gray; margin: 20px; margin:10px; margin-bottom: 30px; }
 .artistCardInfo { width: 600px; }
 .artistCardImage { height: 300px; margin:10px; }
 .artistCardName { font-size: 3em; margin:20px;}
@@ -15,6 +16,13 @@ a:hover {text-decoration: underline;}
 .artistCardSongs { width: auto; margin: 30px;}
 .artistCardSongLink { font-size: 2em; padding: 10px; }
 
+.musicCard { display:flex; flex-wrap: wrap;  gap: 30px;  }
+.musicCardImage { height: 300px; margin:10px; }
+.musicCardTitle { font-size: 4em;}
+.musicCardListenLink { font-size: 2em; padding:20px;}
+
+
+.platformLink { height: 80px; }
 
 @media (max-width: 1200px) {
 

@@ -16,4 +16,36 @@ var artists = [
     }
 ];
 
+var music = [
+    {
+        title: "Radio Heart",
+        releaseDate: "2025-09-01",
+        coverImage: "RadioHeart.jpg",
+        featuredArtist: "Bayliana",
+        producers: "MysticLyraBee",
+        spotifyLink: "spotify.com",
+        appleMusicLink: "applemusic.com",
+        amazonMusicLink: "amazonmusic.com"
+    },
+    {
+        title: "Red Flags",
+        releaseDate: "2025-09-01",
+        coverImage: "RedFlags.png",
+        featuredArtist: "Sonic Revolt",
+        producers: "MysticLyraBee",
+        spotifyLink: "spotify.com",
+        appleMusicLink: "applemusic.com",
+        amazonMusicLink: "amazonmusic.com"
+    },
+    {
+        title: "Personal Space",
+        releaseDate: "2025-09-01",
+        coverImage: "PersonalSpace.png",
+        producers: "MysticLyraBee",
+        featuredArtist: "Bayliana",
+        spotifyLink: "spotify.com",
+        appleMusicLink: "applemusic.com",
+        amazonMusicLink: "amazonmusic.com"
+    }
+]
 
