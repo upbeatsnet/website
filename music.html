@@ -27,6 +27,8 @@
         MUSIC LIST
 
         <div v-for="m in musicList" class="musicCard">
+            {{m.title}}
+
             <div>
                 <img class="musicCardImage" :src="'images/music/' + ((m.coverImage))" className="artistImage" />
             </div>
