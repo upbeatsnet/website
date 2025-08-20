@@ -1,13 +1,24 @@
-body { background-color: black; margin: 0; padding: 0; color: #F7F7F7; font-family: Verdana; }
+body { background-color: black; margin: 0; padding: 0; color: #F7F7F7; font-family: Verdana; color:#cccccb; }
+
+a {color: orange; cursor: pointer;}
+a:hover {text-decoration: underline;}
 
 .menuButton { padding-top:80px; padding-left: 30px; font-size: 3em; }
 .menuButton:hover { text-decoration: underline;}
 
 .newsCard { width: 500px;  margin:auto; background-color: #878784; padding:20px; font-size: 2em; min-height:900px; }
+.artistCard { display:flex; flex-wrap: wrap;  gap: 30px; border: solid 1px silver; margin: 20px; margin:10px; margin-bottom: 30px; }
+.artistCardInfo { width: 600px; }
+.artistCardImage { height: 300px; margin:10px; }
+.artistCardName { font-size: 3em; margin:20px;}
+.artistCardBio { font-size: 1.62em; margin:20px;}
+.artistCardSongs { width: auto; margin: 30px;}
+.artistCardSongLink { font-size: 2em; padding: 10px; }
+
 
 @media (max-width: 1200px) {
 
-    .newsCard { width: 90%; min-height: 1000px; font-size: 3em; }
+    .newsCard { margin-left: 7%; width: 92%; min-height: 1000px; font-size: 3em; }
 
 }
 
