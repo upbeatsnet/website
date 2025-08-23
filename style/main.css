@@ -27,7 +27,7 @@ a:hover {text-decoration: underline;}
 
 @media (max-width: 1200px) {
 
-    .newsCard { margin-left: 7%; width: 92%; border-bottom: solid 1px silver; min-height: 1000px; font-size: 3em; text-align:center; }
+    .newsCard { margin-left: 7%; width: 80% !important; border: none;  border-bottom: solid 1px silver !important; min-height: 1000px; font-size: 3em; text-align:center; }
 
 }
 
