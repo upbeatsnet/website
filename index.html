@@ -1,5 +1,10 @@
-<link href="style/main.css?d=<%DateTime.Now%>" rel="stylesheet" />
 
+<script>
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'style/main.css?d=' + new Date().getTime();
+  document.head.appendChild(link);
+</script>
 
 <html>
   <body>
@@ -47,36 +52,54 @@
       <div class="newsCard">
 
           <video src="videos/RadioHeartTeaser.mp4" controls width="480">
-            Sorry—your browser doesn’t support embedded videos.
-          </video>
+          Sorry—your browser doesn’t support embedded videos.
+        </video>
 
-          <br><br>
+        <br><br>
 
-          "Radio Heart" goes live on August 29th.  Watch this space for links to your favorite streaming platforms.
-          <br><br>
+        
+        "Radio Heart" goes live on August 29th.  Watch this space for links to your favorite streaming platforms.
+        <br><br>
 
-          Produced by MysticLyraBee featuring "Bayliana"
-          <br>
+        Produced by MysticLyraBee featuring "Bayliana"
+        <br>
+
+        <div style="width: 100% !important; text-align: center !important;">
 
 
-           <div style="display:flex; width: 100%; text-align: center;">
+          <table style="width:100%;">
+            <tr>
+              <td>
 
-              <div style="padding:20px;  font-size: .6em;">
+                <div style="padding:20px;  font-size: .6em;">
                   <img src="images/personas/Producers.png" height="200" />
                   <br><br>
                   Lyrabee / Duke Mystic<br>
                   Co-producers
-              </div>
+                </div>
+  
+              </td>
 
-              <div style="padding:20px; font-size: .6em;">
-                <img src="images/personas/Bayliana.png" height="200" />
-                <br><br>
-                Bayliana
-              </div>
+              <td>
 
-            </div>
+                <div style="padding:20px; font-size: .6em;">
+                  <img src="images/personas/Bayliana.png" height="200" />
+                  <br><br>
+                  Bayliana
+                </div>
+
+              </td>
+            </tr>
+          </table>
+
+
+  
+
+        </div>
 
       </div>
+
+
 
       <div class="newsCard">
 
@@ -85,7 +108,6 @@
 
         Porter Dean is currently in the studio working on his debut single "Walking the Country Mile!"
         <br><br>
-
 
     </div>
 
@@ -96,6 +118,8 @@
 </div>
 
 <br><br><br><br><br>
+
+
 
   </body>
 </html>

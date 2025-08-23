@@ -6,7 +6,7 @@ a:hover {text-decoration: underline;}
 .menuButton { padding-top:80px; padding-left: 30px; font-size: 3em; }
 .menuButton:hover { text-decoration: underline;}
 
-.newsCard { width: 500px;  margin:auto; background-color: transparent; border: solid 1px silver; padding:20px; font-size: 2em; min-height:900px; }
+.newsCard { width: 500px;  margin:auto; background-color: transparent; border: solid 1px silver; padding:20px; font-size: 2em; min-height:900px; text-align: center; }
 
 .artistCard { display:flex; flex-wrap: wrap;  gap: 30px; border-bottom: solid 1px gray; margin: 20px; margin:10px; margin-bottom: 30px; }
 .artistCardInfo { width: 600px; }
