@@ -1,4 +1,4 @@
-body { background-color: black; margin: 0; padding: 0; color: #F7F7F7; font-family: Verdana; color:#cccccb; }
+body { background-color: black; margin: 0; padding: 0; color: #F7F7F7; font-family: Verdana, Arial; color:#cccccb; }
 
 a {color: orange; cursor: pointer;}
 a:hover {text-decoration: underline;}
