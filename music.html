@@ -33,24 +33,27 @@
                 <div class="musicCardTitle">
                     {{m.title}}
                 </div>
+                <div class="musicCardSubTitle">
+                    {{m.subTitle}}
+                </div>
 
-                <div style="display: flex; padding: 30px;">
-                    <div style="font-size: 2em; padding-top: 20px;">
+                <div style="display: flex; padding: 30px; min-height: 80px;">
+                    <div style="font-size: 2em; padding-top: 20px;"  v-show="m.showListenLinks">
                         Listen: 
                     </div>
                     <div style="padding-left: 20px;">
-                        <a href='http://www.Spotify.com' target="_blank"><img class="platformLink" src="images/platforms/Spotify.png" /></a>
+                        <a href='http://www.Spotify.com' target="_blank"><img class="platformLink" src="images/platforms/Spotify.png"  v-show="m.showListenLinks" /></a>
                     </div>
                     <div style="padding-left: 20px;">
-                        <a href='http://www.AmazonMusic.com' target="_blank"><img class="platformLink" src="images/platforms/AmazonMusic.png" /></a>
+                        <a href='http://www.AmazonMusic.com' target="_blank"><img class="platformLink" src="images/platforms/AmazonMusic.png" v-show="m.showListenLinks" /></a>
                     </div>
                     <div style="padding-left: 20px;">
-                        <a href='http://www.AppleMusic.com' target="_blank"><img class="platformLink" src="images/platforms/AppleMusic.png" /></a>
+                        <a href='http://www.AppleMusic.com' target="_blank"><img class="platformLink" src="images/platforms/AppleMusic.png" v-show="m.showListenLinks" /></a>
                     </div>
                 </div>
 
 
-                <div style="padding: 20px; font-size: 1.3em;">
+                <div style="font-size: 1.3em;">
                     Featured Artist: {{m.featuredArtist}}
                 </div>
 

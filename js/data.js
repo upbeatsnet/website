@@ -2,47 +2,54 @@ var artists = [
     {
         name: "BeLinda Preston",
         imageName: "BeLinda Preston.png",
-        bio: "This new shining talent is lighting up the digital music arena with her sassy style and sultry twang. Her first release 'New Chapter - Who Dis?' became a viral sensation literally overnight.  It's safe to say we'll be hearing a lot more from BeLinda in the near future."
-    },
-    {
-        name: "Porter Dean",
-        imageName: "Porter Dean.png",
-        bio: "Porter Dean's bio goes here."
+        bio: "BeLinda Preston's bio goes here."
     },
     {
         name: "Bayliana",
         imageName: "Bayliana.png",
         bio: "Bayliana's bio goes here."
+    },
+    {
+        name: "Porter Dean",
+        imageName: "Porter Dean.png",
+        bio: "Porter Dean's bio goes here."
     }
+
 ];
 
 var music = [
     {
         title: "Radio Heart",
+        subTitle: "Dropping August 29th!",
         releaseDate: "2025-09-01",
-        coverImage: "RadioHeart.jpg",
+        coverImage: "RadioHeart.png",
         featuredArtist: "Bayliana",
         producers: "MysticLyraBee",
+        showListenLinks: true,
         spotifyLink: "spotify.com",
         appleMusicLink: "applemusic.com",
         amazonMusicLink: "amazonmusic.com"
     },
     {
         title: "Red Flags",
+        subTitle: "Release date to be announced",
         releaseDate: "2025-09-01",
         coverImage: "RedFlags.png",
         featuredArtist: "Sonic Revolt",
         producers: "MysticLyraBee",
+        showListenLinks: false,
         spotifyLink: "spotify.com",
         appleMusicLink: "applemusic.com",
         amazonMusicLink: "amazonmusic.com"
     },
     {
         title: "Personal Space",
+        subTitle: "Release date to be announced",
         releaseDate: "2025-09-01",
         coverImage: "PersonalSpace.png",
         producers: "MysticLyraBee",
         featuredArtist: "Bayliana",
+        showListenLinks: false,
         spotifyLink: "spotify.com",
         appleMusicLink: "applemusic.com",
         amazonMusicLink: "amazonmusic.com"
