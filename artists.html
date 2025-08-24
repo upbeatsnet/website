@@ -38,8 +38,8 @@
             <img class="artistCardImage" :src="'images/personas/' + ((a.imageName))" className="artistImage" />
         </div>
         <div class="artistCardInfo">
-            <div class="artistCardName">{{a.name}}</div>
-            <div class="artistCardBio">{{a.bio}}</div>
+            <div class="artistCardName" v-html="a.name"></div>
+            <div class="artistCardBio" v-html="a.bio"></div>
         </div>
 
         <!--
@@ -50,7 +50,7 @@
             <div class="artistCardSongLink"><a>Song Link Three</a></div>
         </div>
         -->
-        
+
     </div>
 
 </div>

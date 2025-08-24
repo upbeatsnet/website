@@ -2,32 +2,42 @@ var artists = [
     {
         name: "Bayliana",
         imageName: "Bayliana.png",
-        bio: "Bayliana's bio goes here."
+        bio: "What can we say? Bayliana was born to sing. Clever, catchy phrasing and soaring melodies that go far into the midnight blue. Don't miss her debut single, <i>Radio Heart</i>, dropping August 29th!"
     },
     {
         name: "Steph McQueen",
         imageName: "Steph McQueen.png",
-        bio: "Steph McQueen's bio goes here."
+        bio: "Steph McQueen is the literal personification of neo-punk-pop.  Her first single <i>Red Flags</i>, due out in September 2025, grabs you from the first line and doesn't let go."
     },
     {
         name: "Chez Brooks",
         imageName: "Chez Brooks.png",
-        bio: "Chez Brooks bio goes here."
+        bio: "Chez's vocal performances can be summed up in one word - 'Attitude'.  She commandeers a song and makes it her own.  Her first single, <i>Personal Space</i> releases in September 2025."
     },
     {
         name: "Austin Connor",
         imageName: "Austin Connor.png",
-        bio: "Austin Connor bio goes here."
+        bio: "We met Austin doing covers in a little dive-bar.  The first thing that pulled us to him was the playful energy he brought to every song.  His first single, <Southerly Flow' drops in Fall 2025."
     },
     {
         name: "BeLinda Preston",
         imageName: "BeLinda Preston.png",
-        bio: "BeLinda Preston's bio goes here."
+        bio: "BeLinda's sultry twang immediately draws you in and her unique vocal phrasing makes every line a hook. You don't want to miss her debut single 'New Chapter - Who Dis?' dropping soon."
     },
     {
         name: "Porter Emmett",
         imageName: "Porter Emmett.png",
-        bio: "Porter Dean's bio goes here."
+        bio: "Porter's powerful voice accurately reflects the man he is:  Masculine, sensitive and aware. His first single, <i>Walkin' That Country Mile</i> is due for release late Fall of 2025."
+    },
+    {
+        name: "Maddie Rae",
+        imageName: "Maddie Rae.png",
+        bio: "Maddie's mother assures us 'she was singing before she could talk.' She can deliver a soulful verse followed by a chorus that reaches into the stratoshere. Her maiden voyage, <i>Fences</i> drops in late 2025."
+    },
+    {
+        name: "Ashley Katz",
+        imageName: "Ashley Katz.png",
+        bio: "Ashley constantly reminds us that dynamite comes in small packages.  She's exactly like a line from her upcoming release <i>Not All About You</i>: 'I'm breaking through, I'm my own igniter.' Dropping late 2025."
     }
 ];
 
@@ -70,3 +80,30 @@ var music = [
     }
 ]
 
+var socials = [
+    {
+        name: "Instagram",
+        image: "Instagram.png",
+        url: "http://www.instagram.com/upbeatsstudio"
+    },
+    {
+        name: "Tik Tok",
+        image: "TikTok.png",
+        url: "https://www.tiktok.com/@upbeats2"
+    },
+    {
+        name: "Facebook",
+        image: "Facebook.png",
+        url: "https://www.facebook.com/profile.php?id=61579201997723"
+    },
+    {
+        name: "X",
+        image: "X.png",
+        url: "https://x.com/StudioUpbeats"
+    },
+    {
+        name: "Bluesky",
+        image: "Bluesky.png",
+        url: "https://bsky.app/profile/upbeatsmusic.bsky.social"
+    }
+]
