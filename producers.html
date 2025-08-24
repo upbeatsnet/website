@@ -1,7 +1,9 @@
-<link href="style/main.css?d=<%DateTime.Now%>" rel="stylesheet" />
-
-
-
+<script>
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'style/main.css?d=' + new Date().getTime();
+    document.head.appendChild(link);
+  </script>
 
 
 <html>
@@ -34,7 +36,7 @@
 
             <br><br>
             <div style="text-align: left;">
-                <span style="color: magenta;">DJ LyraBee</span> is a bright up-and-coming multi-talent. As a writer, musician and co-producer, she stamps every track with her playful and energetic personality. 
+                <span style="color: lightblue;">DJ LyraBee</span> is a bright up-and-coming multi-talent. As a writer, musician and co-producer, she stamps every track with her playful and energetic personality. 
                 
                 As his name suggests <span style="color: lightblue;">Mystic Duke</span> is a bit...mysterious.  Never seen without his signature dark shades, his quiet soul is betrayed by his soaring guitar solos and sizzling drum tracks.  
                 Whether they're writing, tracking or mixing, LyraBee and Duke bring a contagious synergy to their productions. 
