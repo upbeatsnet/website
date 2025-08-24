@@ -98,7 +98,7 @@ var socials = [
     },
     {
         name: "X",
-        image: "X.png",
+        image: "x.png",
         url: "https://x.com/StudioUpbeats"
     },
     {
