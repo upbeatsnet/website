@@ -50,8 +50,8 @@ var music = [
         featuredArtist: "Bayliana",
         producers: "MysticLyraBee",
         spotifyLink: "https://open.spotify.com/album/57ixbCUXI6B2RkCygiIlFk",
-        appleMusicLink: "",
-        amazonMusicLink: ""
+        appleMusicLink: "https://music.apple.com/us/album/radio-heart-single/1835290826",
+        amazonMusicLink: "https://music.amazon.com/albums/B0FNK3QH97?ref=AM4APC_TR_P_en_US_B0FNK346Y9_qtfMJjM&trackAsin=B0FNK449DT"
     },
     {
         title: "Red Flags",
