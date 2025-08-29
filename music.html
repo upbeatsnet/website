@@ -44,11 +44,11 @@
                 </div>
 
                 <div style="display: flex; padding: 30px; min-height: 80px;">
-                    <div style="font-size: 2em; padding-top: 20px;"  v-show="m.showListenLinks">
+                    <div style="font-size: 2em; padding-top: 20px;"  >
                         Listen: 
                     </div>
                     <div style="padding-left: 20px;">
-                        <a href='http://www.Spotify.com' target="_blank"><img class="platformLink" src="images/platforms/Spotify.png"  v-show="m.showListenLinks" /></a>
+                        <a :href='m.spotifyLink' target="_blank"><img class="platformLink" src="images/platforms/Spotify.png"  v-show="m.spotifyLink" /></a>
                     </div>
                     <div style="padding-left: 20px;">
                         <a href='http://www.AmazonMusic.com' target="_blank"><img class="platformLink" src="images/platforms/AmazonMusic.png" v-show="m.showListenLinks" /></a>

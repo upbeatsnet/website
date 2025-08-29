@@ -44,12 +44,11 @@ var artists = [
 var music = [
     {
         title: "Radio Heart",
-        subTitle: "Dropping August 29th!",
+        subTitle: "Just Released!",
         releaseDate: "2025-09-01",
         coverImage: "RadioHeart.png",
         featuredArtist: "Bayliana",
         producers: "MysticLyraBee",
-        showListenLinks: false,
         spotifyLink: "https://open.spotify.com/album/57ixbCUXI6B2RkCygiIlFk",
         appleMusicLink: "",
         amazonMusicLink: ""
@@ -62,9 +61,9 @@ var music = [
         featuredArtist: "Steph McQueen",
         producers: "MysticLyraBee",
         showListenLinks: false,
-        spotifyLink: "spotify.com",
-        appleMusicLink: "applemusic.com",
-        amazonMusicLink: "amazonmusic.com"
+        spotifyLink: "",
+        appleMusicLink: "",
+        amazonMusicLink: ""
     },
     {
         title: "Personal Space",
@@ -73,10 +72,9 @@ var music = [
         coverImage: "PersonalSpace.png",
         producers: "MysticLyraBee",
         featuredArtist: "Chez Brooks",
-        showListenLinks: false,
-        spotifyLink: "spotify.com",
-        appleMusicLink: "applemusic.com",
-        amazonMusicLink: "amazonmusic.com"
+        spotifyLink: "",
+        appleMusicLink: "",
+        amazonMusicLink: ""
     }
 ]
 
