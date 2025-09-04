@@ -113,16 +113,32 @@ var demos = [
         fileName: "New Chapter Who Dis.mp3"
     },
     {
-        title: "Fences",
-        fileName: "Fences.mp3"
+        title: "Southerly Flow",
+        fileName: "Southerly Flow.mp3"
+    },
+    {
+        title: "Low Cut Silverado",
+        fileName: "Low Cut Silverado.mp3"
+    },
+    {
+        title: "Little Bit of Love (Churchin' on Sunday)",
+        fileName: "Little Bit of Love.mp3"
     },
     {
         title: "My Picker's Broken",
         fileName: "My Pickers Broken.mp3"
     },
     {
-        title: "Southerly Flow",
-        fileName: "Southerly Flow.mp3"
+        title: "Fences",
+        fileName: "Fences.mp3"
+    },
+    {
+        title: "What Bubba's Cookin'",
+        fileName: "What Bubbas Cookin.mp3"
+    },
+    {
+        title: "Walking That Country Mile",
+        fileName: "Walking That Country Mile.mp3"
     }
 
 ]
