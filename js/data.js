@@ -110,35 +110,43 @@ var socials = [
 var demos = [
     {
         title: "New Chapter - Who Dis?",
-        fileName: "New Chapter Who Dis.mp3"
+        fileName: "New Chapter Who Dis.mp3",
+        lyrics: "lyrics/NewChapterWhoDis.txt"
     },
     {
         title: "Southerly Flow",
-        fileName: "Southerly Flow.mp3"
+        fileName: "Southerly Flow.mp3",
+        lyrics: "lyrics/SoutherlyFlow.txt"
     },
     {
         title: "Low Cut Silverado",
-        fileName: "Low Cut Silverado.mp3"
+        fileName: "Low Cut Silverado.mp3",
+        lyrics: "lyrics/LowCutSilverado.txt"
     },
     {
-        title: "Little Bit of Love (Churchin' on Sunday)",
-        fileName: "Little Bit of Love.mp3"
+        title: "Little Bit of Love <br>(Churchin' on Sunday)",
+        fileName: "Little Bit of Love.mp3",
+        lyrics: "lyrics/LittleBitOfLove.txt"
     },
     {
         title: "My Picker's Broken",
-        fileName: "My Pickers Broken.mp3"
+        fileName: "My Pickers Broken.mp3",
+        lyrics: "lyrics/MyPickersBroken.txt"
     },
     {
         title: "Fences",
-        fileName: "Fences.mp3"
+        fileName: "Fences.mp3",
+        lyrics: "lyrics/Fences.txt"
     },
     {
         title: "What Bubba's Cookin'",
-        fileName: "What Bubbas Cookin.mp3"
+        fileName: "What Bubbas Cookin.mp3",
+        lyrics: "lyrics/WhatBubbasCookin.txt"
     },
     {
         title: "Walking That Country Mile",
-        fileName: "Walking That Country Mile.mp3"
+        fileName: "Walking That Country Mile.mp3",
+        lyrics: "lyrics/WalkingThatCountryMile.txt"
     }
 
 ]

@@ -40,7 +40,7 @@
                     {{ index + 1 }}.
                 </div>
                 <div style="padding-left:20px; width:500px;">
-                    {{d.title}}
+                    <span v-html="d.title"></span>
                 </div>
 
                 <div style="text-align: center; min-width:200px;">
@@ -49,16 +49,32 @@
                     </audio>
                     <div style="padding-top:10px;">
                         <a :href="'demos/' + d.fileName" type="audio/mpeg" :download="d.fileName" style="padding-top:10px; color:white; font-size: .8em; text-decoration: none !important;">Download</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a @click="showLyrics(d.lyrics)"  style="color:white; font-size: .8em; text-decoration: none !important;">Lyrics</a>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div v-show="showLyricDialog" style="position: absolute; top:150px; left:10px; width:95%; max-width:1000px; border: solid 1px silver; background-color: black; padding:10px;" >
+            <button @click="showLyricDialog=false" style="font-size:2em;">Close</button>
+            <br><br>
 
-  <br><br><br><br><br>
+            <div style="font-size: 2em;">
+                <pre>{{lyrics}}</pre>
+
+            </div>
+
+
+            
+    
+        </div>
+    
   
   
   </div>
+
+
   
   <script type="text/javascript">
       
@@ -66,7 +82,9 @@
         data() {
             return {
                 appState: 'loading',
-                demoList: []
+                demoList: [],
+                showLyricDialog: false,
+                lyrics: 'What?'
             }
         },
         components: {
@@ -75,6 +93,24 @@
             isSafari: function () {
                 const visible = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
                 return visible;
+            },
+            showLyrics: function (pageName) {
+                this.lyrics = false;
+                this.showLyricDialog = true;
+
+                fetch(pageName)
+                    .then(response => {
+                        if (!response.ok) throw new Error('Network response was not ok');
+                        return response.text();
+                    })
+                    .then(data => {
+                        this.lyrics = data; // the content of your text file
+                        //alert(this.lyrics);
+                    })
+                    .catch(error => {
+                        console.error('Error fetching file:', error);
+                });
+
             }
         },
         filters: {
