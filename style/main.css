@@ -31,3 +31,9 @@ a:hover {text-decoration: underline;}
 
 }
 
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    .safari-hide {
+      display: none;
+    }
+  }
+

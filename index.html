@@ -44,6 +44,9 @@
                 </div>
 
                 <div style="text-align: center; min-width:200px;">
+                    <audio controls preload="none"  class="safari-hide" >
+                        <source :src="'demos/' + d.fileName" type="audio/mpeg">
+                    </audio>
                     <div style="padding-top:10px;">
                         <a :href="'demos/' + d.fileName" type="audio/mpeg" :download="d.fileName" style="padding-top:10px; color:white; font-size: .8em; text-decoration: none !important;">Download</a>
                     </div>
