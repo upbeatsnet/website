@@ -33,13 +33,13 @@
                     {{d.title}}
                 </div>
 
-                <div>
+                <div style="text-align: center; min-width:200px;">
                     <audio controls preload="none">
                         <source :src="'demos/' + d.fileName" type="audio/mpeg">
                     </audio>
-                </div>
-                <div style="padding-left:20px;">
-                    <a :href="'demos/' + d.fileName" type="audio/mpeg" :download="d.fileName" style="color:white; font-size: .8em; text-decoration: none !important;">Download</a>
+                    <div style="padding-top:10px;">
+                        <a :href="'demos/' + d.fileName" type="audio/mpeg" :download="d.fileName" style="padding-top:10px; color:white; font-size: .8em; text-decoration: none !important;">Download</a>
+                    </div>
                 </div>
             </div>
         </div>
