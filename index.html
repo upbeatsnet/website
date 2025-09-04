@@ -72,6 +72,10 @@
         components: {
         },
         methods: {
+            isSafari: function () {
+                const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+                alert(isSafari);
+            }
         },
         filters: {
         },
@@ -79,6 +83,7 @@
         },
         mounted() {
             this.demoList = demos; // load your demos array
+            this.isSafari();
         }
     };
   
