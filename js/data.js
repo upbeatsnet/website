@@ -105,3 +105,24 @@ var socials = [
         url: "https://bsky.app/profile/upbeatsmusic.bsky.social"
     }
 ]
+
+
+var demos = [
+    {
+        title: "New Chapter - Who Dis?",
+        fileName: "New Chapter Who Dis.mp3"
+    },
+    {
+        title: "Fences",
+        fileName: "Fences.mp3"
+    },
+    {
+        title: "My Picker's Broken",
+        fileName: "My Pickers Broken.mp3"
+    },
+    {
+        title: "Southerly Flow",
+        fileName: "Southerly Flow.mp3"
+    }
+
+]
