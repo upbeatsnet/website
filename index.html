@@ -8,7 +8,11 @@
   
   <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
   <script src="js/data.js" type="text/javascript"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/mediaelement-and-player.min.js"></script>
+
+
+
+
   <html>
     <body>
   
@@ -23,6 +27,12 @@
         
         </div>
   
+        <div style="padding:30px; font-size: 3em;">
+
+            Demos
+
+        </div>
+
 
         <div style="font-size: 2em; width: 100%;">
             <div v-for="d, index in demoList" style="margin: 0 10px; display:flex; padding: 20px;">
@@ -34,9 +44,6 @@
                 </div>
 
                 <div style="text-align: center; min-width:200px;">
-                    <audio controls preload="none">
-                        <source :src="'demos/' + d.fileName" type="audio/mpeg">
-                    </audio>
                     <div style="padding-top:10px;">
                         <a :href="'demos/' + d.fileName" type="audio/mpeg" :download="d.fileName" style="padding-top:10px; color:white; font-size: .8em; text-decoration: none !important;">Download</a>
                     </div>
@@ -46,8 +53,6 @@
 
 
   <br><br><br><br><br>
-  
-  
   
   
   </div>
@@ -69,10 +74,10 @@
         },
         computed: {
         },
-        mounted: function () {
-            this.demoList = demos; 
+        mounted() {
+            this.demoList = demos; // load your demos array
         }
-    }
+    };
   
     var appIndex = Vue.createApp(AppIndex);
     appIndex.mount('#app');
