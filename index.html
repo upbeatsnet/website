@@ -73,7 +73,9 @@
         },
         methods: {
             isSafari: function () {
-                const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+                const visible = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+                alert(visible);
+                return visible;
             }
         },
         filters: {
