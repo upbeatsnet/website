@@ -134,13 +134,13 @@ var demos = [
         lyrics: "lyrics/MyPickersBroken.txt"
     },
     {
-        title: "Gravel Road Getaway<br>(Country Rock Version)",
-        fileName: "Gravel Road Getaway.mp3",
+        title: "Gravel Road Getaway<br>(R & B Version)",
+        fileName: "Gravel Road Getaway RnB.mp3",
         lyrics: "lyrics/GravelRoadGetaway.txt"
     },
     {
-        title: "Gravel Road Getaway<br>(R & B Version)",
-        fileName: "Gravel Road Getaway RnB.mp3",
+        title: "Gravel Road Getaway<br>(Country Rock Version)",
+        fileName: "Gravel Road Getaway.mp3",
         lyrics: "lyrics/GravelRoadGetaway.txt"
     },
     {
