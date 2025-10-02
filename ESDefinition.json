@@ -943,245 +943,75 @@
                                     "value": "301",
                                     "label": "Mineral Mix"
                                 },
-                                "asFedDM": "Dry Matter",
-                                "amount": 0.55,
-                                "homegrown": false,
-                                "purchased": true
-                            },
+                                "aSFedDM": "Dry Mattgr",
+$    !                  "      ("ámount": 0.55,
+                                "homågro÷n": æalse,
+                                "purchased": true
+                  (     $   },
+                   0   à    [
+          `(                    "feeDType":0"Mixes",                   `   !        feed"z {
+                "                   "vanue": "102",$              0 "$      €          "l!bel": "Byproduct Mix - Mid7est
+                `    $"         },
+                     !         "qsNedM": "Dry Matter",
+              " 4   ! 0         "amounv":(5.11,
+      (        !   $            "homegrown": Fal{e,
+  !      "           (  $       "purchasedb: true
+                      (     }
+                        ]-
+     "   0          },                    "Intermountain": {
+          (             #lactatingKosFmeds": [],
+!       $        !      "calfFeefs": [
                             {
-                                "feedType": "Mixes",
-                                "feed": {
-                                    "value": "302",
-                                    "label": "Byproduct Mix - Midwest"
+                                "feedType": "Milk",
+ 0`      `      `               "feed": {
+                                     value": "202",
+                                    "l!bel": bWhole Mhlk"
                                 },
-                                "asFedDM": "Dry Matter",
-                                "amount": 5.11,
-                                "homegrown": false,
-                                "purchased": true
-                            }
-                        ]
-                    },
-                    "Intermountain": {
-                        "lactatingCowFeeds": [],
-                        "calfFeeds": [
-                            {
-                                "feedType": "Milk",
-                                "feed": {
-                                    "value": "202",
-                                    "label": "Whole Milk"
-                                },
-                                "asFedDM": "Dry Matter",
+                                "asFeddM": "Dry Matter",
+                                "amount": 2.2,
+                    0          0"homegrown": false,
+   `                            "purchased": ôrue
+                            },
+              `             {
+     0                          "feedType": "Milk",
+    0                           "feed": {
+                        $           "value": "²16",
+              !          "   0      "label": "Calf Startmr"
+`                               },
+   ,          0            `    "asFedDI": "Dry Matter",
                                 "amount": 2.2,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Milk",
-                                "feed": {
-                                    "value": "216",
-                                    "label": "Calf Starter"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 2.2,
-                                "homegrown": false,
-                                "purchased": true
-                            }
-                        ],
+         !        0             "homegrown": false,
+          0                     "purchased": true
+             `              y
+! 0                     ],
                         "heiferFeeds": [
-                            {
-                                "feedType": "Concentrates",
-                                "feed": {
-                                    "value": "44",
-                                    "label": "Corn Grain, ground"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 0.44,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "51",
-                                    "label": "Corn Silage, mid maturity"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 2.77,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "95",
-                                    "label": "Grass-alfalfa mix (>65% grass) hay mature"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 4.2,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "108",
-                                    "label": "Alfalfa Hay, mature"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 5.04,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Mixes",
-                                "feed": {
-                                    "value": "301",
-                                    "label": "Mineral Mix"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 0.38,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Mixes",
-                                "feed": {
-                                    "value": "305",
-                                    "label": "Byproduct Mix- West"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 3.25,
-                                "homegrown": false,
-                                "purchased": true
-                            }
-                        ],
-                        "dryCowFeeds": [
-                            {
-                                "feedType": "Concentrates",
-                                "feed": {
-                                    "value": "44",
-                                    "label": "Corn Grain, ground"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 0.77,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "51",
-                                    "label": "Corn Silage, mid maturity"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 5.8,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "95",
-                                    "label": "Grass-alfalfa mix (>65% grass) hay mature"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 5.35,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "100",
-                                    "label": "Grass alfalfa mix (35-65% grass) silage, all maturities"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 5.36,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "108",
-                                    "label": "Alfalfa Hay, mature"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 5.18,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Mixes",
-                                "feed": {
-                                    "value": "301",
-                                    "label": "Mineral Mix"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 0.55,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Mixes",
-                                "feed": {
-                                    "value": "305",
-                                    "label": "Byproduct Mix- West"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 5.22,
-                                "homegrown": false,
-                                "purchased": true
-                            }
-                        ]
-                    },
-                    "Mid-Atlantic": {
-                        "lactatingCowFeeds": [],
-                        "calfFeeds": [
-                            {
-                                "feedType": "Milk",
-                                "feed": {
-                                    "value": "202",
-                                    "label": "Whole Milk"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 2.2,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Milk",
-                                "feed": {
-                                    "value": "216",
-                                    "label": "Calf Starter"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 2.2,
-                                "homegrown": false,
-                                "purchased": true
-                            }
-                        ],
-                        "heiferFeeds": [
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "51",
-                                    "label": "Corn Silage, mid maturity"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 3.31,
-                                "homegrown": false,
-                                "purchased": true
-                            },
-                            {
-                                "feedType": "Forage",
-                                "feed": {
-                                    "value": "108",
-                                    "label": "Alfalfa Hay, mature"
-                                },
-                                "asFedDM": "Dry Matter",
-                                "amount": 0.55,
-                                "homegrown": false,
+                 /OdR“œûF¥#´ F$Y?#éXú˜Ë£î kcWÑÇ„jÛW#F¡ÊÀo(&·bÎ‘¬VEÇK*gp¸Ã*SŒ3¸¬Q‹ÝN"®NYÓBåÉ³.Íäm³UÇª±‡Z½Ã	©þÆøjú—;©>ˆ/Ç%WÉü²WŒËÜ±Âü˜gýO&Œ"Ýá¡°@Lþ=¸IŠŽß`1Ð,d%Óc%Ñã$s³	#‚”)2“ÔdÎ³'çÚ º=”)—fÖ’æÕ²ç²½‰žÙdTGqÊŸ/M(	oaÔgtŸu07l.•äW#F­Ê¯+' O±Q“DUËG/J¤Ct9Ùêâ÷1¾¬HEÎ‹,_eÀ(5æ­thÏÞ_‡é?ž å“š¤âïÚi¿VÈ&îºôK?Oh½öÉ¾îˆtnŸUPD:‹KWR@Ù•é~w8s»ÀThVº†Ëïs4ïq´OqÌMñÕ¼ç	Ò¾åˆsðQ¾Rµ¾NaMÙ\³_ƒÁµE–••—¶¶ÎÎìluÕß7  ¤!€ X  9€
+Ø'"¢¡€ZÀüÕˆÈß'ÂzPs·d/ãO ^1uÚ¨£nH½ï?©Ï>Au×_&€"Ø!¢ A€X>‚èY†‚ÚÝ¡"Áá¨pFœ
+Ñ¢(U	Z¡Ã iøú¶ûû|{YÛBãI±ÎÍlmÕÕ§¢¹ˆ‰LÅe¼MPº‚_JrrÊÖÕÜÊPÞ¨›yõÚß#8!ê w ¸$J¬ü+9ëj÷W>†¨ZÄÂg–²l¤£§ˆ\–Ã°H£Óåðs<éñ¶üNùÌzìÛ5£kÔ8gj’—–·Î´¤¸‰8—rì¡ž6ÙÞ¾XÕÝ¦!‚ Y€‚Ú9¢ªÁ‡(z¦ƒÙñ¢úÅ»(KfRÜñ®R80Z	öOÓýú«Ñ?öq#CaÉÐnäsw]Þ X@ˆ9žªÐO$
+£…Hª‘‡4Z·C‰ü^ùÀzè6³nÍÔm§UÿŠ3š²Ó¥ÿƒ9™úÒ÷%¾£Aþˆx–­xò»=‹iŸVÐä:ók=×i¦–À¿§ò³³¦í8žß¦^v.4]>7qîœtQÿD`P?D(‹f¿RÈ®»H7B°ƒý†Äfù"UPg5unïi[ZlŸŠÐ_$ #x%Ú c ø4z®[{yÛX }Š+°’,%B"ùŒ³€RØ¢»‹x_Z€9òªý‡9šªÓ%ú£;ZÆR÷ZžYôÿy¸Ê³/ä=³iÖÝ¦a‚ðY¼Éù¬¼>o/>‹ßžé}>8U|m6!»l{UÛG#
+¡Ï l8ª·7®¼DIËNïLtß}¢_Åwœ/¸¥Ú®2Yò‚ý™¹’ÊU¯'"»a‹P_D x?Z¨¹úÊû/;d+Sg“ÇpÚa
+ö&o}Z/yŽšÜS!Åàk0l6•î×4f¯RÄ«{[zƒ[ÃréÝ¶áŒ¼]>D•úxúÓÌ\;
+^áH³—’K
+1ò¬}…Ù›"Óa¥ÐC$	ã~ñØ|b™Ñ’äUîK à½¯	„>Ûhcv‘ÆÔjçW2†­šÅ“+çw2ž­E”>%þ[–ôŽ	÷•íeHDò¸§Ë³â$n£TAÇHjŽ—V±ÆÌjí×¦¯Ä9«jÇW*†§ÀòdÂ³“æã—°O‚‘Õ{º„KOsLÍñ­<E‰Ëïptqð|1ÙìbõÑ¯& lä‹"Ÿ[¬­ú Ãa†…ýÛ9“jÕ×'&¢¢Á¨XF‚ŠÙŸ"Ð!¤ C`	Ð>æx&4ÞšöáSù¨¹>ño#T!Ç`j6·nÎ”lWUÆ‡*Ú§#¡ù€'Ô4³aÐ]¤ƒxYÚ‚ãñòÌ}­Ù…¢Û£xAÚÓN4‘ðT|Iú‚û»rË]¯A„[~ƒXYÂ‚é™¶Òîå¬qC˜¾eÏ9^<	¶³ö—Ñ;kHB¶‰ŽÞÜ`aðd4ouÔ'p"œ!‘àTpÄ¯mrÅ°ºQ”W{F›JÓO%Ì#-áå°sýñ¹¼NÉÏ.ì$uã_1À,js—ïs„àòq´_ÇÎh@ùU¥ç*¹ç
+ò¿=ˆ)ž§ÐBä	³~ÍØm¢——F²†Íší“7Ù®Uqz­tÄ6†ó™Qvô³ˆÝu| )ø&ú¢û»xKZC	ñþüxyÚšã1õì5Ør.‰ƒ`YÜä9³jÍ×-¦¥’Ã©òÆýªù‡:Ú«caúyUH6ù©S²Dß’OBpY¦/³Õ¡HÝÑ¡¤@CH	Î¾ìHuÎŸ,P%Ä#+açPr„›q“\UÃ†e%óÙVÔ£¦ØÌý%™ÏbìµôO?L)æ½²É®Ý”a›PSDË{/[dS{•¦fp3¡Ç:VG6KÐlTä\¯^Ä kxZ¶ƒÙübùÑºäK3OmÌ­÷¾»K~	PÂ±Ù)—ß'‰cAƒ¢aS‰XAÂˆiž–ÐVäóz½Û9£jÁ×(f¦’ÂÕ©§_ïè‹&ßnàp7\.äXsBÉ‘®ÔDgK/ƒh¶ÿtxZ°9ýêù·:Î«,GeÊ“/¬rz(è†#âFÜ{†ªÞ}ãY±ÂÌi­ÖÅ¦ë÷y¾šÇ<j«–u€ÿ¶¯P­s„¿$º^œ(<^„°êà˜éµœ4QïDt_@2¾­ˆEž‰_t x8m~J¸µa¹uD1R}»•È6î®ôDKXB¼	‰þÞø`z3wmÞ• W ºr…æê@6uD%Íwàßîƒ¨%i~‰Ø^â€q˜R±ÅŒë×q¦œBÑÉ¤nÃTiÇVê†÷®æj¢ÌäXÊ³†LŸ‘(†‡GŠ³ð=¼)‰æÞòà}°Œ2Ýí¡±€OQ>Ç‰µžÏl4ïw4¯pDqÿLxÚxc
+‘ÿoUZ®ƒYûBûI»ÃLoMÔ§}‚™™’ÒÕ¥§¹ùŠø™~eO~ g†;‹b>]h)gJyR†…šû#uáß0`,%ô#?a¨v´ÏplÑ÷<\ï¦ˆ«Ÿg}Ä&ëb÷Q¾„H[NƒLYÍÂï©µ†Ï:ì35mï5´/d<iõÔ©g¶w¿£¡ IiH¾$Ñúúø{:›kWuÆŸ*Ð'4"¡eÐXd“Ù•Ú÷#&¡âÀq¨
+°ˆ‰#/Î%¥[Á«Û>‚rƒ‰¢éAÞ	ÙÈÿ	§ì±(Sf…ÒÛ%£cÑødz“[UÃw)Þ¢âBð	¼>ÉènöÉrúrf‚’Ù•¢×¦¸BÊ‰¯Ä0klU÷‡>Ú¨c"‘úÔ{%
+1íÝà?é_·IjÝ%\t€¦¼8ä›‚ÿöe¡Ó eø3:µë7|.›äFóE½Ê	¿~Äkr—]–”™­Ó¿ÌþI1Ðäú&;C„”DWKFBÜ!ü yàñ3<-íå¶óýüy¹ÚÊã/3¬c> šnò®A*	Š¹³::µÒ¤dƒSÅòk?·iŽ–ÜVÁÆðjü9ö®þÇ8jª—êã™M§='\›0úäcÙipÏÁ³(Mæ²Ý¡€Q˜R»E‹KOx=ñéá[ãÞîàTp\0ì8uêŸ7.´$OcLÍ‰`•Uˆžº²Kmü¹òÊý¯9„*†ky¡Å€kr¶ŽÑœdQÓDeËS/GEg:?•Z÷ùUÏñH›ÏCA•í—5–¯ä6ëf÷T~‡ØZ‚ƒ™òÒý¦õÂI¾v±oýËSi5y^úñý„·áj/Wd“zÕß'#b¡Ñ€dXBµÉ.Ü&"¢7¢Y.7„^|©õO¢“•øW:†«Çs*ç²´MMœ‘ý”y—û©¦Ùâbñ±¼LIÍÎí¬u…ß 3`­Ð%¤£aùÐzä15(˜‘ÕþPºŠ¼²A,u’$i‡rš‘£A÷H>Ž˜\RÅØk—u–ŸÐ6ä.ód}Ó[ã‡†m«üÆ©Ç×·9ŽªÜG!Ê o 87j®—V»FËJïO4/}ä³rÍÝ­¡ÓÁMFp£Ýˆó"R )ûc;QëDwK^@\þ¸xJš5ñï<t)ßfàð5¼/¨?±-1Ôƒ¦µ­æÿCÍ—¥÷~‰B5T0l:•ë7v®žÄPkDKv^Ü aøz´s|@ÕÜˆüA¹ÈJî4|/Aäs~ØQ¢„A›HSN…Ì[-Ãe©ÑG¶œ¶y†k­VÌâ¾õ®~}¼c¤ òì’hJ–Ü6áîðt|Yðü9™êÊ÷/>¤(Cf‰ÒÞå¢2MR­î®QÝu>HÙS=Åé«6Çnê”w—^¶€NØb½Á‰¤^Ã@iÈî¶äL·5Hïì^ÏüÂx$ÛÝÀQYÛm>Š¨€:Ø+"§a‚Y”×y¦šÂÓ)¥æÃ2éí¶õŒ¯I*r’í0@•ù>{·	†iCËVïFô
+ÿ8*²§‚½™‰’ÞÕ g ¸5Šò+;l+UçG2Š­Ÿ;kwg^’€U˜ºµ‹DQì2õí¯5ˆ/¤0Cl	Õþç8rª‡š´SEÜ9ý,½R~Âò^‚~p™Õ¯ùùÍ…é›6ÃnåÔs']â±¸LRÅ«‡tZŸC	ô>ÿj>SßòÑå§^Ýêá·0N¬EýË9¯jÄ+v§^Â€i˜Ò¶åŽó}ñÙ¼bË‡ï¨6IGÏC>Sü‡uj€76²®Í„m›U“GÊ·/¤<CiÉÖìæôrï]¸Š¸_Ì~Zm~¤·‚Çúê^uÙËFBnùyJVR™õ’ÿ¸7
+®¿H;N«LGMÊ¯„1›lSUÅÇ+w«J(’¹•†×&°"Ì!­àE ?}è¶²ÎÍ¬mÅÕ›'`ô‚éaG(ãÒpløF÷)?ß‚µÒ¨e†“Õó'=â©±†ÌZíÃ5©ïô:ÿk8j¶—Ôý+†‡ ±¶iOòµÕ`ú;+qç\r€Ý˜a’U”z¶›Ó|eÙÓ"åá³2£@ðºÝvËdÓý$4âÒ„”Ex–…–ÛãvñÞüpyÐä33míÕµ§¼9‰êÞ÷ ~¢H`ËeßöÕ÷*¬Í=°…“ów=Þ© FÀ
+¨?6¨.Æ¤jÃW)Æ¦êÂ®”§ÈRî‰´^Ï@lþ·8NªŒGÊ±¯91æC¯VÄëz÷[>ƒhYÖ‚æÙ²âÍ±­ŒEÉYê=ZJxRëâv³Ñ{t_s@È1®¬DEËK/@H=Ûjù®¤­4Ä&1Q«Å>qD­çêk(&7cÎ‘¬TEÇK*g±õŒØ3¢¬A…È[&¥œ«±4Íôc¦@ê7ª±‡Z½Ã	©þÆøjú—;«vÇ^ê€w²°MŒÿÙöÙi[lßû¡v [Hò’IŠŽß`1Ð,d%Óc¥Ñã$qã\qÁÜhaÖfÔçu°ÏXÂ~ÜhÄ#’üÕæµX÷§‰žÑdTGuÊŸ/$4#oiÔgt›uI<F.•äW3F­ÊÅ¯+'{b›Q“DEËG/Š¤|BôÀâ÷1¾¬HEÎ‹,mÀ(5æ¯2Ä-«e‡S…ó=ói¿ŒãŠ¶­9úTÒì×½zj ;“öÉ¾îètnŸTPD:‹kWpÜ:Ñë%wc^‘ÀthtüÃŽ^í)4FÂ[´OqÌmñÕ¼g	Ò¾åˆqðQœIûÎûL{MÛM£MÍš;ÓÛÀÒ¶´ßÞþnyø÷# " !€ X  9€*Ø7" ¥€XX‚™Šòß% # !ø"6¡YEz7Ú§ÁZQ«·>¯Øo<_+€O‘eµåÔ*u‚¨Y†‚ÚÙ£"Áá¨pFœ
+‘ÿ$x#^£Ã iøú¶û¦pVsÛBãI±ÎÌlmÕÕ§'¢¹ŠØ_"!˜ R !€;+pöìÄÝ¼?ÐŸ¥™gA õ·¾wld¸¢{-4¸0J¬Ü;9ëj÷W>„¨NÆƒ*Øç2ò¡½€I˜Ò¼gÈžQ°¾%>áä¸í_õáPíÛ5£oÜ8gj’—–·Î¶ìJõÌ-Ø%¢£øXxÊÔTÖ5‡’ðo€ºYæC”bç¦ì­(Z§ƒÙù¢zÃ»(KfRü¡û sx^³CÉý®ù†*Ž	` š•*¦s#‹Är@ˆ9žªÐG$
+£Ø8bª‘‡Z·K‰ü^ùWÂ6³NÍÔm§U‚‡š²Ó¥ýƒ9™êÒ÷X³‰Aþx\š€Sò»=‹iŸVÐ¹6Þ@=×i¦–ÂÖé¦öÂþé¸vÊžït6v!$QNz>»Ò –
+bPdif¿RÈ®›KsO[LÍùÍºí‹5ŸoXut;/À]0-ÑÙ¶aDpz;ÚÛ<Ò5z¯[{yßZãC1ÉìnõÕ'X"‚¡›Ã”CÄþDÍ+]@€x5òªý‡9šªÓ%ú£;ëxwZžƒYôÿy¸‘žä=3iÖÝ¦á‚ðY¼Éù®úÄû+[gÃR‰ÅžëwvXÚ5h]a¾naUÙ*jêÍQú÷7®¼DI‹NïLtß= €2Ø-¢¥ƒYò‚ý›ÿ×‘­=y–K‹P_D x?Ú¨¹úÊû/;d+SgEÒ‹%Ÿcô4oXá8ÂÏ™Q;Åây n:¸Ä×4f¯RÄ«{[zƒ[ÃréÝ¶áŽð\|Ùøbú‘»KwO\À½M¸¢KHø7STtòÁ5É’™ùa¥ÐC$	ã~ñØ|b™Ñ’äU³GÊ½¯	„>ÛhcV‘Æ‰fÊ}2†­šÅ“+Çw2ž­E”v˜Ò°eŒõñ¿<JhÀ©±¤½4È&
+ñAª	>ÚÒNT½ëæjí×5¦¯Ä9«jÇW*†§Â“)æÝ²á°]ŒøSûÉN'NÍã£®I¤áïptqð|1YìbõÑ¿$H#^¡Ì@mÈ®·N«N‚ë_ÊªÕ;‰j“–kuç®í«¨XFÂŠÙŸ"Ð!¤ C`	Ð>ä(sfÒÑ¥¤CIùÎúî+`‰,kr‚$hŠÀdâ+ã¾lWUÆ‡*Ú§#¡ù€zØ"³aÐ]¤ƒxYÚßï6›òÌ}­Ù…¢Û£xAÚˆ#‘ðT|Yú‚û»rp…A„[~“XYÂ‚é™¶ÒÎå¬sÝû!»`KPD<+iÿT¾C¿þRk:iB@ÛÀÂ•ÞlLúd4uÔ'p"œ!‘ÀTp\:ëwržQ”Wy Þ—M?Ìx Ëå°sýñ¹¼JÉÏ.ì$uã_1À,h%Ö§&Áâèq¶œNÑÌdo…é’F(£ç`®+Š%³ŒÐBÄ	³~ÍØm¢•—W²†Íší“5•ï66¯nÔkwW^†‚™Agõãð]_Ae¾&‰öºSï5X¢i\	ñþüxyÚšã1õì5Ø/"¤!ƒ`YÐä9³jÍ×pªˆ¨Ã©þÆýªù‡:Ú«#qú{ws^ÀQ¨DF»JËMnBH§ØÛ–bßµóý@.	]šû¾Jyãµ,P%Ä#+açPr„›q“\UÁÇ(j¦—Ö¹¦ÊÂï)´$Ž/£Dû M%L:ô±Ÿã®Ý„a›PSDË{/[dSyÕÚë#7aîtTGp
+žw^¥q1ý“Nib÷Ï]œðOÓÑºäK3OmÌ­ç¾»K~X\ù˜zÒ›%“cÑõt+ñ	ƒÛ,Ú”ÊV°T¦?Ðñ9£jÁ×(f¦’ÂÕ©§FÂºé‹6ßnàp7\.½uYCÙ‘®ÔDgKREœÿtxZ°9€æÔ:Î«,GeÊ“/ä73n­ÔE§KyœÓ»a4¥ã¤‰,é…Ç¼ëyÚS¾šÈS.…ä[3CmÉÕ®çr´2Ïoífã²_ZÞjWÖÂÛáôñ˜Bÿù	–Q[CØÂ¾éˆvÞžàPp;që\wAÜˆ`^ T0«÷Ø^XëtÒþ¾aY`Ú¼=‰éžöÐ~äsrÝ‘¡”@WHŽºÜK!Ï`löp#mSø€6\ã€¯{4ê±XÑÝ¤aƒPYÄëy·ZNƒ,YåÂó)½æÉ²îÍ´mUœA¯æ8G/FûØú½écŽCÅTt_z€3r­Ý…¡› SxÚ»#aûPxG·^!]ÿA¸J¾\>èXv‚žÙrÔ§´BŸIuùgiÒ–å–óýö¹¶úÈ{.›dSSEÅË+/gd“u•ßfsåJ´}8fT»ÖÂ¡Oså¬ÂéBkU×GŠ¢ß 8@*ˆ'¢°AÌ]þ€¸XJ‚9œ2ó«á0Ç]CÀiÅ¶¥ŽÃiñÖüfùÒúå»3	mÿU¸'
+º¿‹?~¨F²ŠÍŸ/ÆdÚvRcì|Åupž°½•—V·FÎŠì_5À/($6£`ÅÑ¨dF“JuÏ'"¥áƒ0Yì ¹øý„)4§f ÊÇ“y%ñÒ®lñãñ—µ?.ž9·uì¬jÅ×+&§bÂ‘©”F×JæÏ2Ü-¡á‚sò±½ŒI“ÝNEÓK%Ïc,åôs?]è¶¸NÊŒoÔ1§lB±É—.Ö¦7<¬’†í||ýŠâèðÏX/ÇÕ†ÇaªG*·˜<R©Ç†ÿ÷s?øQ¶„NÛLcMÑÏå Ì ×‘ð½¢­0dÃÎöì~õØw"˜!’ U€:²«	‡}š™“Õõ§?¨;Îå—‚dxî°Np¢ìðÓW1é«fÆRê…·Ž±|MÙÍ¢í¡µ˜O„5ë´4OoL§(ìÚÀÀä,kïÎ-1ú¬{Û{#[aÃPiÄëv÷^þ€xP‚³¯ð—¡‰€~Ø b¸Š´_@<)þ¦øBú‰»cÆZo\÷z~š˜C…õ›?h5Ö¯{ÈÀa·PN„[}ÃY©ÂÆéªöÇ>ê¨uoÐî•i@62E˜½,ýK¸_g‘OL?Mè–½ŽÁœnÑÔägSR…Å›+d9“ÜqÑw]o°1Ã~wÃ>˜“lhúšÏ¨lF•Ê×/"¤"Ãa©ÐFäó=Ø)¢¤‚Ã¤ÐÇ‹Ÿÿ`ßÑÐ	mcJ‘Ïl7Uî‡4Z¯C	û~ûX{B›I“NÕÌ< ø%¥ƒƒùòúý»9‹jßW  :À«('f"’Á•¨W†¸œŽfk½@6vßsÍUzÊ SÔSgIâŽñœ|ÙÄbëQ·N‹L_MÀ¨=†©šÆÓ*ç¡vwéïŸµÀ"9|5Ùï"ô!¿àH´<OiÌíöõ¾ÿx>š¨S…úÛ;#ka*ÑWÙo£]Ð*j&»Â¶éŽöÜ~áØpbœ‘ôTGX
+‚¿ˆ2Þ­ E€?r¨Ê°Ø‰/ßåéDO"¶Ð»zC:ô\å*n¸J·OŒ<]éÁ¶èNöŒ~ÝØa¢A”W~†˜ZÒÞ)´Éñõ¼	Ø>Â¨q†œZÑÃ$iãVñÆüjù×:æ«2Çm¨ÔÔq_ò÷cÏæm»±Ø¾_ñyØ`ÏáœÞLMØ¢½‰˜^Ò€e˜µÕ?(1æ¬rÅÝ«!‡bÝLAw£hä—*X¸Šê0ê³7î½´INÜŒaýÐy¤Ãs9Ýæá²ðM¼‰ýŽûØ5™^`!-ÊŸ“¾T™Ëã0^1ßl Ð7$.£dAÓHeÎ“,UåÇ3*­ç²»‹}Ÿ[ÀW†zï+‘Òm”¼Ö´¼÷Ûç¾íˆužŸP4/{dSsEÝË!¯`Dt?_59’6Ê®ït;_k@H6ŽîÜDaËPoDw^˜[’Š»`?\(æ¸rÊ¯„4[oCT	Ç~ê˜w2žµ’	QIs	·ÉñPÕE®fL³0:G™WÆ½ºÉ‡.Ú¤cQùäzë[7Cn‰Ô^ç@rˆž±NH‚9¨ƒ‡I÷Ÿ£ü8yêš÷>µèO6Œ.Ýäa³PMÄ	«}‡Yš‚Ó¥òÃ?ÿ¨Ê£Ÿüù8sxaÒ™JOP,=ûi»VËFïJô?|(æ²òÍ½­‹…žÛ ctßt`qFiwgñS5&¯Çr_UZc3üšixËEŸKt<iðü6ùîúô{?[hV¹ÆÊêï74.òhi9KuÏS, %ø#:¡ë whš°Sýû9»jË/F¤
+Á>z¾c¦Æ˜ƒ¦XK¦Ü°œŠ°%!Ré«lGUÊ‡/¤3mùÕºç2¿mˆž·N´O}Ì¯³ˆòþGÓ|À˜qƒù¹UX6‚®Ù„bÛP£DAËHoN”W}Æ™ªÒÇ%ª£úº3EÖ:T
+z•á+ž&#¯ôÈaAM×M¦‚Ý™¡’ÐU¨ººË/drµÝ!œ QâT%ic ´6Œ‡œÃ‘FmWJ†Ü3!íàu°L0=ì)µæÏ2ì-µå3E Ûä¼c	Ýþá¸pJœü4yïZô?yè‹¿çèm¶•Ž×f±ÒÌe­Ó¥û;yëZ÷C<Á­°Å,¾]'öÂŽ]ìl¼ˆVÞ†àZð<9éêö÷>þ¨w)Þ¤¡1–LøZ¤êtö–…fïÓÁå…ª•hÎ‰¯D1klUö‡>Ú¨c‘úÔ{'[bQ™ÄRëE¿IÏÂ3	W•ðò}¦—›ÇÐH‹Ó eø:µë7|.™äRóE½Ë	¯~Äkr—]––ØTªÉ¼_»v¤é-7¨ïØGk¥JÜ!ü yàð3<-iå¶óýüy¹ÚÊã/1ä,seÝÑqð² xH¿{±êe6Ì|‡áH©SÅòë=·iŽ–ÜVáÆðjü1öªþÇ8nª—K¶›áï|tßrà°1Œ,]åÁ³(Mö²ÝM¡€Qã)x»E‹KOp=±á¼vÉÞîàtp\0ì8uêŸ7.¶b
+&(e”¤(½O˜sóè_qÑ7¹òÊý9„*Ûg#R¡Å€kröŽÑdQÓDeëS/g¢Nv;o‚ùš+Ž¸\JÏl2•í—5–¯Æ6ën÷t~‡XÚ‚ƒ™òÒý¥¹ƒ¾l­d¸ºKh.¥Þ.ùúù»:Ëk/Wd“zÕÛ7#`¥Ñ€dXBÉÜ$aãPqÄ'p•*ƒÈØgÀÊQÇ·oÅÿª:rêßý	˜ÏY³Ð¾y—ZÖƒ&Ùââñ±¼LIÍÎ­¬u…ß"3`-Ð%¤#a¤ÜWÎ3smÝÕ¡§ B¸	Š¾ß`>(T'‡bÚ‘£0A÷H~ŒÉ<Ä¼u”ûD‰6‰o§08[©ïé)©æÆòêÝ·9ŽªÜG!È { 86j¾—V»FËJïO6Mb2±Wåp×Õ¸¯”‘W5)r¹ÝŠáŸ8P,%ûc;QêDwKZ@\þ¸xJš}¾¢y3{1®ê5ÚnE¿{ÿEWÖ™§ÒÂå©³†Ïúí»5‹o?T0l2•ë7v®žÄPkFG$ÌS$¼R`´O]&90óñ¢üA¹ÈJî4\/Aäs~ØQ¢„I›HSN…‘vÃe©óåúó;=ëi·VÎ†ìZõÃ?)è&‹¯ÔÁ¸hÊ–Ü6ñîðt|Yðü9äæçÜ/>¤(Cf‰ÒÞå s ø1º¬KÍbO ¡r§ÿwŽ èŽwLsœ€NØb½Ñ©¤^Ë@iÈn¶ôNÿLxÚ¾ïHÂª™,+ÔÖø[‘
+{Îû]€A¥'`‚Y”×y¢šÂÓ)¥æÃ2èí¶õŽÿzr›à%c”¾b(aAQ¸iCËVïFô
+ÿ8*²§‚½™‰’ÞÕ g ¸5Šô2.°;l«UçG2Š­Ÿ;+wg^’ U˜’ºµ‹|0ªw°©ËlØj¾0A@™µå4O€—Qš´SEüK9ÿjø                              "homegrown": false,
                                 "purchased": true
                             },
                             {
